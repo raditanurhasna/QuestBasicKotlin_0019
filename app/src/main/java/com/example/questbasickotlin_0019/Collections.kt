@@ -19,9 +19,9 @@ fun ContohList() {
     println(shapesLocked)
 }
 
-fun Contohset() {
+fun ContohSet() {
     println()
-    printlin("=== Set ===")
+    println("=== Set ===")
 
     val readOnlyAbjad = setOf("A", "B", "C")
     println(readOnlyAbjad)
@@ -59,4 +59,10 @@ fun ContohMap() {
 
     val sahpesLocked: Map<String, Int> = shape
     println(sahpesLocked)
+}
+
+fun main() {
+    ContohList()
+    ContohSet()
+    ContohMap()
 }
